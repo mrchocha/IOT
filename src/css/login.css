@@ -1,0 +1,13 @@
+.Login {
+  height: 90vh;
+}
+.login__con {
+  padding: 30px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: black;
+  max-width: 500px;
+  margin-top: 150px;
+  border: 1px solid #ff5757;
+  border-radius: 5px;
+}

@@ -1,0 +1,95 @@
+.Home {
+  height: 90vh;
+  overflow-y: hidden !important;
+  width: 100%;
+  position: relative;
+  border: 0px;
+}
+.car_img {
+  position: absolute;
+  top: 35%;
+  left: 45%;
+  text-align: center;
+}
+.car_img > img {
+  max-height: 200px;
+}
+
+.top__dict {
+  position: absolute;
+  top: 10%;
+  left: 45%;
+}
+.left__dict {
+  position: absolute;
+  left: 20%;
+  top: 50%;
+}
+
+.right__dict {
+  position: absolute;
+  right: 25%;
+  top: 50%;
+}
+
+.bottom__dict {
+  position: absolute;
+  bottom: 10%;
+  left: 45%;
+}
+
+.dist__box {
+  background: #ff5757;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+.dist_logo {
+  padding-right: 10px;
+}
+.dist_logo > img {
+  max-height: 25px;
+}
+
+.temperature__div {
+  position: absolute;
+  right: 40px;
+  top: 30px;
+  text-align: center;
+  font-size: 30px;
+  padding: 20px 0 20px 0;
+  border: 1px solid #ff5757;
+  border-radius: 10px;
+}
+
+.temp__img > img {
+  max-height: 100px;
+}
+
+.key_pressed {
+  position: absolute;
+  bottom: 100px;
+  left: 50px;
+  border: 1px solid #e27373;
+  padding: 10px;
+  text-align: center;
+  min-width: 300px;
+  font-size: 30px;
+}
+
+.danger {
+  background: red;
+  animation: boomboom 0.5s infinite;
+}
+
+@keyframes boomboom {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.5);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
